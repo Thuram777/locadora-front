@@ -5,9 +5,9 @@
                 <v-col cols="11" style="margin: auto; padding: 7px 0px">
                     <nav class="navbar navbar-expand-lg">
                         
-                        <div class="container-fluid">
+                        <div class="container-fluid" >
                             <button
-                                class="navbar-toggler"
+                                class="navbar-toggler btn-info"
                                 type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent"
@@ -39,7 +39,7 @@
                                     <li class="nav-item">
                                         <router-link class="nav-link active" to="/editoras"
                                             ><v-icon
-                                                style="color:white; margin-top: -3px; margin-right: 4px; font-size: 20px"
+                                                style="color:#212529; margin-top: -3px; margin-right: 4px; font-size: 20px"
                                                 >mdi-bookshelf</v-icon
                                             >Editoras</router-link
                                         >
@@ -454,6 +454,7 @@ body {
 }
 
 .navbar {
+
     padding: 5px;
 }
 </style>

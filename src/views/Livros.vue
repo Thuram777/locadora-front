@@ -47,7 +47,7 @@
                                     <li class="nav-item">
                                         <router-link class="nav-link active" to="/livros" href="#"
                                             ><v-icon
-                                                style="color:white; margin-top: -3px; margin-right: 4px; font-size: 20px"
+                                                style="color:#212529; margin-top: -3px; margin-right: 4px; font-size: 20px"
                                                 >mdi-book-multiple</v-icon
                                             >Livros</router-link
                                         >

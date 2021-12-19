@@ -1,7 +1,7 @@
 <template>
     <div id="home">
         <v-app id="inspire">
-            <nav class="navbar navbar-expand-lg navbar-white bg-white ">
+            <nav class="navbar navbar-expand-lg elevation-4">
                 <v-col cols="11" style="margin: auto; padding: 7px 0px">
                     <nav class="navbar navbar-expand-lg">
                         
@@ -22,7 +22,7 @@
                                     <li class="nav-item">
                                         <router-link class="nav-link active" to="/" aria-current="page" href="#">
                                             <v-icon
-                                                style="color:white; margin-top: -3px; margin-right: 4px; font-size: 20px"
+                                                style="color:#212529; margin-top: -3px; margin-right: 4px; font-size: 20px"
                                                 >mdi-home</v-icon
                                             >Início</router-link
                                         >
