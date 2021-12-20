@@ -423,7 +423,7 @@ export default {
                     Usuario.alterar(edit)
                         .then(resposta => {
                             if (resposta != null) {
-                                //Toast.fire('Usuário alterado com sucesso!', '', 'success');
+                                Toast.fire('Usuário alterado com sucesso!', '', 'success');
                                 this.listar();
                             }
                         })
@@ -447,7 +447,7 @@ export default {
                     Usuario.salvar(save)
                         .then(resposta => {
                             if (resposta != null) {
-                               // Toast.fire('Usuário salvo com sucesso!', '', 'success');
+                                Toast.fire('Usuário salvo com sucesso!', '', 'success');
                                 this.listar();
                                 this.close();
                             }

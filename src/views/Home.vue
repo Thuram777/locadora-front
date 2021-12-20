@@ -5,7 +5,9 @@
                 <v-col cols="11" style="margin: auto; padding: 7px 0px">
                     <nav class="navbar navbar-expand-lg">
                           <v-spacer>
-                         <v-toolbar-title>WDA-Livraria</v-toolbar-title>
+                             <v-toolbar-title>
+                              <v-icon style="">mdi-bookshelf</v-icon>
+                                 WDA-Livraria</v-toolbar-title>
                          </v-spacer>
                         <div class="container-fluid">
                             <button

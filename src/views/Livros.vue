@@ -500,7 +500,7 @@ export default {
                     Livro.alterar(edit)
                         .then(resposta => {
                             if (resposta != null) {
-                                //Toast.fire('Livro alterado com sucesso!', '', 'success');
+                                Toast.fire('Livro alterado com sucesso!', '', 'success');
                                 this.listar();
                                 this.close();
                             }
@@ -526,7 +526,7 @@ export default {
                     Livro.salvar(save)
                         .then(resposta => {
                             if (resposta != null) {
-                               // Toast.fire('Livro salvo com sucesso!', '', 'success');
+                                Toast.fire('Livro salvo com sucesso!', '', 'success');
                                 this.listar();
                                 this.close();
                             }

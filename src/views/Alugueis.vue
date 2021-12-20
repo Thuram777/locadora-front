@@ -578,7 +578,7 @@ export default {
                     };
                     Aluguel.alterar(edit).then(resposta => {
                         if (resposta != null) {
-                           // Toast.fire('Aluguel alterado com sucesso!', '', 'success');
+                            Toast.fire('Aluguel alterado com sucesso!', '', 'success');
                             this.listar();
                             this.livrosDisponiveis();
                             this.close();
@@ -595,7 +595,7 @@ export default {
                     Aluguel.salvar(save)
                         .then(resposta => {
                             if (resposta != null) {
-                                //Toast.fire('Aluguel salvo com sucesso!', '', 'success');
+                                Toast.fire('Aluguel salvo com sucesso!', '', 'success');
                                 this.listar();
                                 this.livrosDisponiveis();
                                 this.close();
