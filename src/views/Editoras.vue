@@ -379,7 +379,7 @@ export default {
                     Editora.alterar(edit)
                         .then(resposta => {
                             if (resposta != null) {
-                                //Toast.fire('Editora alterada com sucesso!', '', 'success');
+                                Toast.fire('Editora alterada com sucesso!', '', 'success');
                                 this.listar();
                                 this.close();
                             }
@@ -402,7 +402,7 @@ export default {
                     Editora.salvar(save)
                         .then(resposta => {
                             if (resposta != null) {
-                                // Toast.fire('Editora salva com sucesso!', '', 'success');
+                                Toast.fire('Editora salva com sucesso!', '', 'success');
                                 this.listar();
                                 this.close();
                             }

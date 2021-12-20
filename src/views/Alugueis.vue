@@ -365,7 +365,7 @@ export default {
                 v => (v && v >= this.editedItem.data_aluguel) || 'Data de previsão não pode ser menor que a de aluguel!'
             ],
             data_devolucaoRules: [
-                v => !!v || 'Campo data de previsao é obrigatório!',
+                v => !!v || 'Campo data de devolução é obrigatório!',
                 v =>
                     (v && v >= this.editedItem.data_aluguel) || 'Data de devolução não pode ser menor que a de aluguel!'
             ],
@@ -578,7 +578,7 @@ export default {
                     };
                     Aluguel.alterar(edit).then(resposta => {
                         if (resposta != null) {
-                           // Toast.fire('Aluguel alterado com sucesso!', '', 'success');
+                            Toast.fire('Aluguel alterado com sucesso!', '', 'success');
                             this.listar();
                             this.livrosDisponiveis();
                             this.close();
@@ -595,7 +595,7 @@ export default {
                     Aluguel.salvar(save)
                         .then(resposta => {
                             if (resposta != null) {
-                                //Toast.fire('Aluguel salvo com sucesso!', '', 'success');
+                                Toast.fire('Aluguel salvo com sucesso!', '', 'success');
                                 this.listar();
                                 this.livrosDisponiveis();
                                 this.close();
