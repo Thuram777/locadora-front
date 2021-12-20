@@ -4,7 +4,9 @@
             <nav class="navbar navbar-expand-lg elevation-4">
                 <v-col cols="11" style="margin: auto; padding: 7px 0px">
                     <nav class="navbar navbar-expand-lg">
-                       
+                        <v-spacer>
+                         <v-toolbar-title>WDA-Livraria</v-toolbar-title>
+                         </v-spacer>
                         <div class="container-fluid">
                             <button
                                 class="navbar-toggler"
@@ -20,7 +22,7 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li class="nav-item">
-                                        <router-link class="nav-link " to="/" aria-current="page" href="#">
+                                        <router-link class="nav-link " to="/" aria-current="page" href="#" style="color:#838383">
                                             <v-icon
                                                 style="color:#838383; margin-top: -3px; margin-right: 4px; font-size: 20px"
                                                 >mdi-home</v-icon
@@ -28,7 +30,7 @@
                                         >
                                     </li>
                                     <li class="nav-item">
-                                        <router-link class="nav-link" to="/usuarios" href="#"
+                                        <router-link class="nav-link" to="/usuarios" href="#" style="color:#838383"
                                             ><v-icon
                                                 style="color:#838383; margin-top: -3px; margin-right: 4px; font-size: 20px"
                                                 >mdi-account-multiple</v-icon
@@ -37,7 +39,7 @@
                                     </li>
 
                                     <li class="nav-item">
-                                        <router-link class="nav-link " to="/editoras"
+                                        <router-link class="nav-link " to="/editoras" style="color:#838383"
                                             ><v-icon
                                                 style="color:#838383; margin-top: -3px; margin-right: 4px; font-size: 20px"
                                                 >mdi-bookshelf</v-icon
@@ -45,7 +47,7 @@
                                         >
                                     </li>
                                     <li class="nav-item">
-                                        <router-link class="nav-link" to="/livros" href="#"
+                                        <router-link class="nav-link" to="/livros" href="#" style="color:#838383"
                                             ><v-icon
                                                 style="color:#838383; margin-top: -3px; margin-right: 4px; font-size: 20px"
                                                 >mdi-book-multiple</v-icon
@@ -53,7 +55,7 @@
                                         >
                                     </li>
                                     <li class="nav-item">
-                                        <router-link class="nav-link active" to="/alugueis" href="#"
+                                        <router-link class="nav-link active" to="/alugueis" href="#" style="color:#838383"
                                             ><v-icon
                                                 style="color:#212529; margin-top: -3px; margin-right: 4px; font-size: 20px"
                                                 >mdi-calendar</v-icon
